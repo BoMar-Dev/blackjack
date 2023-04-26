@@ -1,0 +1,168 @@
+body, .header-text, .game-field,  .retry-btn{
+ background-color: black;
+ font-family: 'Megrim', cursive;
+ 
+}
+
+.header-text{
+    color: whitesmoke;
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+
+.play-text{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+
+.player-field{
+
+  text-align: center;
+}
+
+.start-btn{
+    font-weight: bold;
+    font-family: 'Megrim', cursive;
+    font-size: 1.5rem;
+    border: 1px transparent;
+    -webkit-border-radius: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    
+   
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+    -webkit-animation: glowing 1300ms infinite;
+    -moz-animation: glowing 1300ms infinite;
+    -o-animation: glowing 1300ms infinite;
+    animation: glowing 10s infinite;
+  }
+  @-webkit-keyframes glowing {
+    0% {
+      background-color: #050505;
+      -webkit-box-shadow: 0 0 3px #91b2ba;
+    }
+    50% {
+      background-color: #161616;
+      -webkit-box-shadow: 0 0 15px #91b2ba;
+    }
+    100% {
+      background-color: #0091b2;
+      -webkit-box-shadow: 0 0 3px #c6cfd0;
+    }
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #000000;
+      box-shadow: 0 0 3px #91b2ba;
+    }
+    50% {
+      background-color: #000000;
+      box-shadow: 0 0 15px #91b2ba;
+    }
+    100% {
+      background-color: #000000;
+      box-shadow: 0 0 3px #0091b2;
+    }
+  }
+
+
+
+.game-field{
+    font-weight: 600;
+    font-size: 1.2rem;
+   
+    background-image: url(img/realdealer.jpg);
+    background-size: cover;
+    
+    height: 80vh;
+    color: white;
+}
+
+
+
+.dealer-msg{
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgba(245, 245, 245, 0.397);
+    color: black;
+    font-size: 0.9rem;
+}
+
+.retry-container{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.retry-btn{
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: 'Megrim', cursive;
+    color:  whitesmoke;
+    box-shadow: 0 0 10px rgb(161, 44, 44);
+}
+
+.new-card-btn{
+    font-weight: bold;
+    font-family: 'Megrim', cursive;
+    font-size: 0.9rem;
+    border: 1px transparent;
+    -webkit-border-radius: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    
+   
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    -webkit-animation: glowing 1300ms infinite;
+    -moz-animation: glowing 1300ms infinite;
+    -o-animation: glowing 1300ms infinite;
+    animation: glowing 10s infinite;
+  }
+  @-webkit-keyframes glowing {
+    0% {
+      background-color: #050505;
+      -webkit-box-shadow: 0 0 3px #91b2ba;
+    }
+    50% {
+      background-color: #161616;
+      -webkit-box-shadow: 0 0 15px #91b2ba;
+    }
+    100% {
+      background-color: #0091b2;
+      -webkit-box-shadow: 0 0 3px #c6cfd0;
+    }
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #000000;
+      box-shadow: 0 0 3px #91b2ba;
+    }
+    50% {
+      background-color: #000000;
+      box-shadow: 0 0 15px #91b2ba;
+    }
+    100% {
+      background-color: #000000;
+      box-shadow: 0 0 3px #0091b2;
+    }
+}
